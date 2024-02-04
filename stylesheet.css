@@ -128,6 +128,7 @@ a.DownloadCV-btn:hover{
     cursor: pointer;
 }
 /* About */
+
 .about-model-img {
     background: url(images/Rectangle214.png);
     background-repeat: no-repeat;
@@ -140,6 +141,10 @@ h1.sec-head {
     display: inline-block;
     font-weight: 700;
     font-size: 45px;
+}
+.about-model-img img {
+    width: 85%;
+    margin: auto;
 }
   
   h1.sec-head::before {
@@ -686,6 +691,7 @@ box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25) inset;
   /* resposnsive */
 
   @media screen and (max-width:767px){
+ 
     .html-progress, .css-progress, .react-progress, .bs-progress, .js-progress, .git-progress {
         width: 100%;
     }
@@ -723,7 +729,7 @@ box-shadow: 0px 0px 8px 4px rgba(0, 0, 0, 0.25) inset;
         font-size: 29px;
     }
     .about-model-img img {
-        width: 80%;
+        width: 100% !important;
     }
     .about-model-img {
         background-size: cover;
